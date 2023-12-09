@@ -1,9 +1,9 @@
 A tool to install WPILib tools
 ===
-Run:
+On Mac:
 ```bash
 chmod +x ./install.sh
-./install.sh <os>
+./install.sh mac
 ```
 
 If running Linux:

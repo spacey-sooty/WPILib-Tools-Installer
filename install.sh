@@ -28,6 +28,12 @@ case $1 in
                 ;;
         esac
         ;;
+    "mac" )
+        brew upgrade
+        brew install --cask dotnet-sdk
+        brew install --cask dotnet
+        brew install --cask openjdk@11
+        ;;
     * )
         echo "Unsupported OS"
         exit 1
