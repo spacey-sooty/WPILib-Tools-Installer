@@ -1,7 +1,13 @@
-A tool to install WPILib tools on Debian based distros
+A tool to install WPILib tools
 ===
 Run:
 ```bash
 chmod +x ./install.sh
-./install.sh <distro-base-here>
+./install.sh <os>
+```
+
+If running Linux:
+```bash
+chmod +x ./install.sh
+./install.sh linux <distro-base-here>
 ```
