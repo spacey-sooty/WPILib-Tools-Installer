@@ -43,5 +43,4 @@ esac
 git clone https://github.com/wpilibsuite/WPILibInstaller-Avalonia.git
 cd WPILibInstaller-Avalonia
 ./gradlew generateInstallers -PXmx3072m -PlinuxBuild -PjenkinsBuild --build-cache
-mv build/outputs/WPILibInstaller ./WPILibInstaller
-./WPILibInstaller
+./build/outputs/WPILibInstaller
